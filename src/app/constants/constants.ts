@@ -52,6 +52,10 @@ export const skills: SkillGroup[] = [
         name: "SQL",
         logo: `${DEVICONS_BASE}/azuresqldatabase/azuresqldatabase-original.svg`,
       },
+      {
+        name: "Java",
+        logo: `${DEVICONS_BASE}/java/java-original-wordmark.svg`,
+      },
     ],
   },
   {
@@ -59,8 +63,7 @@ export const skills: SkillGroup[] = [
     technologies: [
       {
         name: "LangChain/LangGraph",
-        logo: "https://cdn.simpleicons.org/langchain",
-        invertInDark: true,
+        logo: "https://cdn.simpleicons.org/langchaincorporate",
       },
       {
         name: "PyTorch",
@@ -129,13 +132,22 @@ export const experiences: Experience[] = [
     invertLogoInDark: true,
   },
   {
-    year: "Jul '23 - Present",
-    title: "Associate Software Engineer",
+    year: "Jul '23 - April '26",
+    title: "Software Engineer",
     company: "Optum",
     description: [
-      "Architecting an AI agent evaluation framework for pre-deployment LLM validation",
+      "Architected an AI agent evaluation framework for pre-deployment LLM validation",
       "Delivered CopilotKit/AGUI AI assistant integration POCs",
       "Led mentorship across the team while building a React web app, and ranked #1 in defect resolutions and code contributions among all engineers",
+    ],
+    color: "slate",
+  },
+  {
+    year: "April '26 - Present",
+    title: "Software Engineer",
+    company: "Buyers Edge Platform",
+    description: [
+      "Improving automation of restaurant invoice data parsing (OCR)",
     ],
     color: "slate",
   },

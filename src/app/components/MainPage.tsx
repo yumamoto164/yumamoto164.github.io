@@ -25,7 +25,7 @@ export function MainPage() {
                 Yuma Yamamoto
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 mt-1">
-                Software Developer & AI Engineer
+                Software Engineer & AI Engineer
               </p>
               <p className="text-base text-gray-500 dark:text-gray-300 mt-1">
                 UMass Amherst · B.S. Mathematics & Data Science · 2023
