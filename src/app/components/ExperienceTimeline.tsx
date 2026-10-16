@@ -4,11 +4,14 @@ import westernMassPioneersLogo from "../../images/western_mass_pioneers.png";
 import umassSoccerLogo from "../../images/umass_amherst_logo.png";
 import libertyMutualLogo from "../../images/liberty_mutual_logo.png";
 import optumLogo from "../../images/optum_logo.png";
+import buyersEdgePlatformLogo from "../../images/bep_logo.svg";
+
 const companyLogos: Record<string, string> = {
   "Western Mass Pioneers": westernMassPioneersLogo,
   "UMass Women's Soccer": umassSoccerLogo,
   "Liberty Mutual": libertyMutualLogo,
   Optum: optumLogo,
+  "Buyers Edge Platform": buyersEdgePlatformLogo,
 };
 
 const logoOnlyCompanies = ["Liberty Mutual", "Optum"];
@@ -54,7 +57,9 @@ export function ExperienceTimeline() {
                 onMouseLeave={() => setHoveredExp(null)}
               >
                 {/* Year */}
-                <span className="text-xs text-gray-400 dark:text-gray-300">{exp.year}</span>
+                <span className="text-xs text-gray-400 dark:text-gray-300">
+                  {exp.year}
+                </span>
 
                 {/* Dot */}
                 <button
