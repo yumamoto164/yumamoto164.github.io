@@ -52,6 +52,10 @@ export const skills: SkillGroup[] = [
         name: "SQL",
         logo: `${DEVICONS_BASE}/azuresqldatabase/azuresqldatabase-original.svg`,
       },
+      {
+        name: "Java",
+        logo: `${DEVICONS_BASE}/java/java-original-wordmark.svg`,
+      },
     ],
   },
   {
@@ -59,8 +63,7 @@ export const skills: SkillGroup[] = [
     technologies: [
       {
         name: "LangChain/LangGraph",
-        logo: "https://cdn.simpleicons.org/langchain",
-        invertInDark: true,
+        logo: "https://cdn.simpleicons.org/langchaincorporate",
       },
       {
         name: "PyTorch",
